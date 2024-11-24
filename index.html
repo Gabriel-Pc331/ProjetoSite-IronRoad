@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Road</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <img src="assets/img/ironroad.webp" alt="Logotipo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#introducao">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Introdução -->
+        <section id="introducao" class="introducao">
+            <div class="container">
+                <h1>Bem-vindo ao Nosso Site</h1>
+                <h2>Explore nossa jornada e descubra mais!</h2>
+            </div>
+        </section>
+
+        <!-- Sobre Nós -->
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Bem-vindo à Iron Road Harley! Somos uma revendedora autorizada da icônica marca Harley-Davidson, comprometida em oferecer a verdadeira experiência de liberdade sobre duas rodas. Aqui, você encontra uma ampla gama de motocicletas Harley-Davidson, peças originais, acessórios exclusivos e serviços especializados.</p>
+                <p>Nossa equipe está pronta para ajudá-lo a encontrar a moto perfeita, garantindo excelência em atendimento e qualidade em cada detalhe. Venha nos visitar e descubra o espírito de aventura que só uma Harley pode proporcionar!</p>
+                <img src="assets/img/equipeironroad.webp" alt="Equipe de trabalho">
+            </div>
+        </section>
+
+        <!-- Galeria -->
+        <section id="galeria" class="galeria">
+            <div class="container">
+                <h2>Alguns dos modelos em nosso estoque</h2>
+                <div class="grid">
+                    <!-- Harley V-Rod -->
+                    <figure>
+                        <img src="assets/img/VRod.jpg" alt="Harley V-Rod">
+                        <figcaption>Harley V-Rod - R$ 92.000</figcaption>
+                    </figure>
+
+                    <!-- Sportster S -->
+                    <figure>
+                        <img src="\assets\img\Sportster S.jpg" alt="Sportster S">
+                        <figcaption>Sportster S - R$ 94.200</figcaption>
+                    </figure>
+
+                    <!-- Road Glide Limited -->
+                    <figure>
+                        <img src="assets\img\Road Glide Limited.jpeg" alt="Road Glide Limited">
+                        <figcaption>Road Glide Limited - R$ 162.900</figcaption>
+                    </figure>
+
+                    <!-- Ultra Limited -->
+                    <figure>
+                        <img src="assets\img\Ultra Limited.jpg" alt="Ultra Limited">
+                        <figcaption>Ultra Limited - R$ 168.900</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <form action="#" method="POST">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>Contato: contato@ironroadharley.com | Telefone: (11) 1234-5678</p>
+            <p>&copy; 2024 Iron Road Harley. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
